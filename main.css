@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+    color: #00ff00; /* Hacker green */
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+code {
+    border: 3px dashed #00ff00; /* Hacker green dashed border */
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #111; /* Slightly lighter black for contrast */
+    color: #00ff00;
+}

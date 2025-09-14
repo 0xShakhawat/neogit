@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>NeoGit</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <h1> Welcome to Neo Git</h1>
+    <p> Git is a version control system that lets you manage and keep track of your source code history.</p>
+    <p> Git is easy to learn and has a tiny footprint with lightning fast performance.
+    <h3> Codes for git</h3>
+    <code>
+        # Create a git repo with CLI
+        echo "# neogit" >> README.md
+        git init
+        git add README.md
+        git commit -m "first commit"
+        git branch -M main
+        git remote add origin https://github.com/0xShakhawat/neogit.git
+        git push -u origin main
+
+        # Push an existing repo from the command line
+        git remote add origin https://github.com/0xShakhawat/neogit.git
+        git branch -M main
+        git push -u origin main
+    </code>
+
+</body>
+<footer>
+    <p>NeoGit by 0xShakhawat</p>
+</footer>
+</html>
